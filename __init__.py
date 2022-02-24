@@ -11,7 +11,7 @@ class AwSWMod(Mod):
     @staticmethod
     def mod_load():
         ( ml.Overlay()
-            .add(['imagebutton auto "image/ui/musicviewer_four_musicbutton_%s.png":'\
+            .add(['imagebutton auto "image/ui/namereentry_four_button_%s.png":'\
                  ,'    xalign 0.333'\
                  ,'    yalign 0.965'\
                  ,'    action [Show("namereentry_four", transition=dissolve), Play("audio", "se/sounds/open.ogg")]'\
