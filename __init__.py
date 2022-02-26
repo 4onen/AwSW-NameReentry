@@ -7,7 +7,7 @@ def create_profile_button(depart_screen):
 @loadable_mod
 class AwSWMod(Mod):    
     name = "Name Reentry"
-    version = "v0.0"
+    version = "v1.0"
     author = "4onen"
     dependencies = ["MagmaLink"]
 
